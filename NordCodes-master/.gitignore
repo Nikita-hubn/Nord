@@ -1,0 +1,20 @@
+# IntelliJ IDEA
+*.iml
+.idea/
+*.ipr
+*.iws
+
+# Maven
+target/
+*.log
+*.class
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Allure results (если не хочешь пушить)
+api-test/target/allure-results/
+
+# Postman временные файлы (опционально)
+postman/*.json
